@@ -2,14 +2,14 @@ import os
 import random
 import shutil
 
-dataset_folder = 'D:\Documentos\Semestre8\Aplicaciones avanzadas\AI\Proyecto\AImodel\dataset'
+dataset_folder = 'D:\Documentos\Semestre8\Aplicaciones avanzadas\AI\Proyecto\AImodel\dataset3'
 # Set the path to the destination folder for train, validation, and test data
-destination_folder = 'D:\Documentos\Semestre8\Aplicaciones avanzadas\AI\Proyecto\AImodel\images'
+destination_folder = 'D:\Documentos\Semestre8\Aplicaciones avanzadas\AI\Proyecto\AImodel\images3'
 
 # Set the train-validation-test split ratios
-train_ratio = 0.6
-validation_ratio = 0.2
-test_ratio = 0.2
+train_ratio = 0.9
+validation_ratio = 0.05
+test_ratio = 0.05
 
 # Create the train, validation, and test folders
 train_folder = os.path.join(destination_folder, 'train')
