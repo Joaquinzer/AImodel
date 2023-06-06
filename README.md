@@ -13,7 +13,9 @@ El modelo convolucional tuvo el rendimiento más bajo, obteniendo un nivel de pr
 El otro modelo implementado fue el transfer model usando VGG16, dicho modelo fue implementado 2 veces para poder hacer diferentes ajustes y comprar directamente los resultados. Al final ambos modelos estuvieron muy parecidos. El primero teniendo más neuronas, pero con más dropout, para evitar el sobreajuste. Y el segundo de manera opuesta, menos de ambos. Al final ambos modelos sufrieron de un poco de desajuste, pero al hacer varias pruebas con muchos valores diferentes se llegó a la conclusión de que de esa manera se pudieron obtener mejores resultados. El primero modelo obtuvo una precisión de 69% en las pruebas, mientras que el segundo obtuvo 77%. El primero modelo no pudo completar las 100 épocas debido al callback, mientras que el segundo si pudo y obtuvo mejores resultados. 
 # Bibliografía:
 [1] ATASHNEJAD, A. (2023, April 10). Over 300 Car Brands Dataset. Kaggle. https://www.kaggle.com/datasets/alirezaatashnejad/over-20-car-brands-dataset
+
 [2] HOEKSTRA, G. (2021, November 19). UK Car Brands Dataset. Kaggle. https://www.kaggle.com/datasets/bignosethethird/uk-car-brands-dataset
+
 [3] Raheel Siddiqi. 2019. Effectiveness of Transfer Learning and Fine Tuning in Automated Fruit Image Classification. In Proceedings of the 2019 3rd International Conference on Deep Learning Technologies (ICDLT '19). Association for Computing Machinery, New York, NY, USA, 91–100. https://doi.org/10.1145/3342999.3343002
 
 
